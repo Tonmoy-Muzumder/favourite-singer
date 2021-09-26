@@ -1,0 +1,25 @@
+
+.header nav {
+    
+    width: 100%;
+    background-color: rgb(4, 63, 87);
+    line-height: 50px;
+}
+.header nav button{
+    color: white;
+   
+    background-color: rgb(59, 124, 70);
+}
+.header nav input {
+    margin-left: 250px;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    padding: 5px;
+    font-size: 20px;
+}
+.header nav a:hover{
+    background-color: rgba(58, 245, 204, 0.698);
+}
