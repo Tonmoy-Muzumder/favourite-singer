@@ -16,9 +16,9 @@ const Cart = (props) => {
        totalQuantity = totalQuantity + singer.quantity;
 
        if(!name){
-        // name = name + singer.name;
+          
        }
-       name = name +" " + "," + singer.name;
+       name = name + " , " +  singer.name;
    }
 
    
