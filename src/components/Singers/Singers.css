@@ -1,11 +1,13 @@
 .cart-container{
+    margin: 10px;
     height: 600px;
-    background-color: lightgray; 
-    margin-top: 50px;
+    background-color: rgba(61, 79, 139, 0.383); 
+    margin-top: 85px;
     border: 2px solid gray;
     text-align: left;
     padding: 10px;
+    
 }
 body{
-    background-color: rgba(224, 162, 173, 0.582);
+    background-color: rgba(106, 109, 112, 0.582);
 }

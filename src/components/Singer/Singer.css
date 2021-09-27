@@ -3,38 +3,8 @@
     grid-template-columns: 3fr 1fr;
 }
 
-
-.single-singer{
-    display: grid;
-    grid-template-columns: repeat(3fr, 1fr);
-  background-color: rgba(82, 173, 173, 0.438);
-  text-align: left;
-  margin: 25px;
-
- 
- 
-}
-
-.single-singer img{
-    height: 320px;
-    width: 500px;
-}
-
-.data{
-    display: flex;
-    
-    
-}
-.details{
-    margin: 20px;
-}
-.cart-btn{
-    background-color: hotpink;
-}
-
-
 .column {
-    background-color: rgba(140, 98, 180, 0.411);
+    background-color: rgba(206, 156, 195, 0.527);
     box-shadow: 0px 0px 8px 0px;
     /* margin-bottom: 15px; */
     margin: 15px;

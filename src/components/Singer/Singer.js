@@ -7,8 +7,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Singer = (props) => {
     const {name, img, age, album, country, salary} = props.singer;
     return (
-      <div class="column">
-      <div class="row">
+      <div className="column">
+      <div className="row">
         <div>
           <img style={{height:280, width: 320, margin: 10}} src={img} alt="" />
          <h1>Name : {name}</h1>
@@ -22,8 +22,6 @@ const Singer = (props) => {
            ><FontAwesomeIcon icon={faShoppingCart} />  Add To Cart</button>
         </div>
       </div>
-      {/* <div class="column">2</div>
-      <div class="column">3</div> */}
     </div>
       
     );

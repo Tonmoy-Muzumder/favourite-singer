@@ -27,9 +27,9 @@ const Cart = (props) => {
             <h1 style={{textAlign: "center"}}>My Cart</h1>
             <hr />
 
-            <h2 style={{color: 'green'}}>Singer Added : {totalQuantity}</h2>
+            <h2 style={{color: 'white'}}>Singer Added : {totalQuantity}</h2>
             <hr />
-            <h2 style={{color: 'green'}}>Total Salary : <span>$ {total}</span></h2>
+            <h2 style={{color: 'white'}}>Total Salary : <span>$ {total}</span></h2>
             <hr />
             <h2 style={{color: 'blue'}}>Singer Name: {name}</h2>
             <hr />
