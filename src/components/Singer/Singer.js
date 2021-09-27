@@ -26,6 +26,9 @@ const Singer = (props) => {
 
           
         </div>
+
+
+
     );
 };
 

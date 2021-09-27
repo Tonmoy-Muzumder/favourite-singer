@@ -1,7 +1,11 @@
 .cart-container{
+    height: 600px;
     background-color: lightgray; 
     margin-top: 50px;
     border: 2px solid gray;
     text-align: left;
     padding: 10px;
+}
+body{
+    background-color: rgba(224, 162, 173, 0.582);
 }

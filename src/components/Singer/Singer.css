@@ -5,9 +5,11 @@
 
 
 .single-singer{
- background-color: rgba(82, 173, 173, 0.438);
- text-align: left;
- margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(3fr, 1fr);
+  background-color: rgba(82, 173, 173, 0.438);
+  text-align: left;
+  margin: 25px;
 
  
  
@@ -20,7 +22,7 @@
 
 .data{
     display: flex;
-    margin: 20px;
+    
     
 }
 .details{
@@ -29,3 +31,4 @@
 .cart-btn{
     background-color: hotpink;
 }
+
