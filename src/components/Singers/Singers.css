@@ -1,3 +1,7 @@
-.font{
-   background-color: hotpink;
+.cart-container{
+    background-color: lightgray; 
+    margin-top: 50px;
+    border: 2px solid gray;
+    text-align: left;
+    padding: 10px;
 }

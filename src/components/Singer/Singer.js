@@ -1,7 +1,7 @@
 import React from 'react';
 import './Singer.css'
-// import { Button } from 'react-bootstrap';
-// import Cart from '../Cart/Cart';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 
 const Singer = (props) => {
@@ -13,12 +13,18 @@ const Singer = (props) => {
           <img src={img} alt="" />
           <div className="details">
           <h1>Name: {name}</h1>
-          <h1>Age: {age}</h1>
-          <h1>Album: {album}</h1>
-          <h1>Country: {country}</h1>
-          <h1>Salary: {salary}</h1>
+          <h3>Age: {age}</h3>
+          <h3>Album: {album}</h3>
+          <h3>Country: {country}</h3>
+          <h3>Salary: <span>$</span> {salary}</h3>
+
+          <button onClick={() => props.handleAddToCart(props.singer)}
+           style={{width: 150, height: 30, backgroundColor: "pink"}}
+           ><FontAwesomeIcon icon={faShoppingCart} />Add To Cart</button>
           </div>
           </div>
+
+          
         </div>
     );
 };
